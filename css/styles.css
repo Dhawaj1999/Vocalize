@@ -44,19 +44,19 @@ body{
   letter-spacing: 6px;
 }
 
-.row h1{
+.title-heading{
   font-size: 3.6rem;
   color: #fff;
 }
 
-.row p{
+.title-para{
   width: 65%;
   color: grey;
   line-height: 1.6;
   padding-bottom: 10px;
 }
 
-.row button{
+.btt{
   padding: 8px 35px;
   border-radius: 0;
   word-spacing: 2px;
@@ -68,7 +68,7 @@ body{
     text-align: center;
   }
 
-  .row h1{
+  .title-heading{
     font-size: 3.2rem;
   }
 
@@ -76,7 +76,7 @@ body{
     font-size: 0.9rem;
   }
 
-  .row p{
+  .title-para{
     width: 100%;
   }
 }
@@ -88,7 +88,7 @@ body{
   align-items: center;
 }
 
-.card{
+.product{
   background-color: #fff;
   text-align: center;
   font-family: serif;
@@ -100,17 +100,17 @@ body{
 }
 
 .img{
-  height: 220px;
-  width: 280px;
+  height: 190px;
+  width: 250px;
   object-fit: contain;
-  margin-bottom: 5%;
+  margin-bottom: 6%;
 }
 
 .img2{
-  height: 220px;
-  width: 280px;
+  height: 190px;
+  width: 250px;
   object-fit: contain;
-  margin-bottom: 7%;
+  margin-bottom: 8%;
 }
 
 #products h4{
@@ -144,4 +144,109 @@ span{
   .card{
     margin-bottom: 3%;
   }
+}
+
+/* zx 9 speaker  */
+#zx9-speaker{
+  padding: 0 15% 10% 15%;
+}
+
+.third-container{
+  background-color: #FF7B54;
+}
+
+.image-container{
+  text-align: center;
+}
+
+.speaker-image{
+  object-fit: cover;
+  width: 90%;
+  height: 100%;
+  margin-left: 14%;
+  padding-top: 12%;
+}
+
+.speaker-heading{
+  margin-left: 15%;
+  margin-top: 22%;
+  line-height: 0.5;
+  font-size: 3.2rem;
+  color: #fff;
+  font-family: 'Montserrat';
+}
+
+.speaker-heading2{
+  margin-left: 15%;
+  font-size: 3.2rem;
+  color: #fff;
+  padding-bottom: 2%;
+  font-family: 'Montserrat';
+}
+
+.speaker-para{
+  margin-left: 15%;
+  width: 65%;
+  color: #fff;
+  line-height: 1.6;
+  font-family: 'Montserrat';
+}
+
+.bttt{
+  padding: 8px 35px;
+  border-radius: 0;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  margin-left: 15%;
+  margin-top: 2%;
+}
+
+@media (max-width: 1028px) {
+  #zx9-speaker{
+    text-align: center;
+    padding: 0 15% 10% 15%;
+  }
+    .speaker-image{
+      object-fit: cover;
+      padding-top: 12%;
+      margin: auto;
+    }
+
+    .speaker-heading{
+      margin-top: 15%;
+      line-height: 0.5;
+      font-size: 3rem;
+      color: #fff;
+      font-family: 'Montserrat';
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .speaker-heading2{
+      font-size: 3rem;
+      color: #fff;
+      padding-bottom: 2%;
+      font-family: 'Montserrat';
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .speaker-para{
+      color: #fff;
+      line-height: 1.6;
+      font-family: 'Montserrat';
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .bttt{
+      padding: 8px 35px;
+      border-radius: 0;
+      word-spacing: 2px;
+      letter-spacing: 1px;
+      margin-top: 2%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 12%;
+    }
 }
