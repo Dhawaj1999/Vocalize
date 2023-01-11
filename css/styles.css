@@ -152,7 +152,9 @@ span{
 }
 
 .third-container{
-  background-color: #FF7B54;
+  background-image: url('../images/orange-background.jpeg');
+  object-fit: cover;
+  width: 100%;
 }
 
 .image-container{
@@ -164,12 +166,12 @@ span{
   width: 90%;
   height: 100%;
   margin-left: 14%;
-  padding-top: 12%;
+  padding-top: 14%;
 }
 
 .speaker-heading{
   margin-left: 15%;
-  margin-top: 22%;
+  margin-top: 24%;
   line-height: 0.5;
   font-size: 3.2rem;
   color: #fff;
