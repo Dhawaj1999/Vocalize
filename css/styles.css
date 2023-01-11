@@ -1,0 +1,147 @@
+body{
+
+}
+
+/* title */
+#title{
+  background-color: #1A1A1B;
+  padding: 0 15% 1% 15%;
+}
+
+.title{
+  word-spacing: 5px;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 1rem;
+}
+
+.nav-link{
+  font-size: 0.85rem;
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+.title-text{
+  padding-top: 6rem;
+}
+
+.title-image{
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.row h3{
+  color: grey;
+  font-size: 1.1rem;
+  word-spacing: 2px;
+  letter-spacing: 6px;
+}
+
+.row h1{
+  font-size: 3.6rem;
+  color: #fff;
+}
+
+.row p{
+  width: 65%;
+  color: grey;
+  line-height: 1.6;
+  padding-bottom: 10px;
+}
+
+.row button{
+  padding: 8px 35px;
+  border-radius: 0;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+
+  .row h1{
+    font-size: 3rem;
+  }
+
+  .row h3{
+    font-size: 0.9rem;
+  }
+
+  .row p{
+    width: 100%;
+  }
+}
+
+/* products */
+#products{
+  text-align: center;
+  padding: 8% 15%;
+  align-items: center;
+}
+
+.card{
+  background-color: #fff;
+  text-align: center;
+  font-family: serif;
+  align-items: center;
+  border-radius: 0;
+  padding: 0;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  border: none;
+}
+
+.img{
+  height: 220px;
+  width: 280px;
+  object-fit: contain;
+  margin-bottom: 5%;
+}
+
+.img2{
+  height: 220px;
+  width: 280px;
+  object-fit: contain;
+  margin-bottom: 7%;
+}
+
+#products h4{
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+
+#products h6{
+  color: grey;
+  font-size: 0.8rem;
+  word-spacing: 5px;
+  font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+}
+
+span{
+  font-size: 0.85rem;
+  color: #FF7B54;
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+@media (max-width: 1028px) {
+  #products{
+    padding: 8% 20% 5% 20%;
+  }
+  .card{
+    margin-bottom: 3%;
+  }
+}
