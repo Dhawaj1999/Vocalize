@@ -24,9 +24,10 @@ body{
 }
 
 .nav-link{
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   font-family: 'Montserrat';
   font-weight: 400;
+  letter-spacing: 1.5px;
 }
 
 .title-text{
@@ -138,7 +139,7 @@ a{
   text-decoration: none;
 }
 
-span{
+.s{
   font-size: 0.85rem;
   color: #FF7B54;
   font-family: 'Montserrat';
@@ -317,16 +318,9 @@ span{
 
 .fifth-container{
   background-color: #F0F0F0;
-  background-image: url(../images/earbud-bg.jpeg);
+  background-image: url(../images/ebgg.jpeg);
   /* height: 300px; */
 }
-
-/* .yx1-earphones-image{
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-} */
-
 
 .right-part{
   text-align: center;
@@ -337,6 +331,7 @@ span{
   padding-top: 18%;
   font-size: 1.8rem;
   margin-bottom: 5%;
+  color: #fff;
 }
 
 .yx1-btn{
@@ -369,4 +364,75 @@ span{
     border-color: white;
   }
 
+}
+
+  /* description */
+#description{
+  padding: 7% 10%;
+}
+
+.person-with-hpn{
+  width: 100%;
+  border-radius: 2%;
+}
+
+.d-h{
+  padding-top: 8%;
+  width: 60%;
+  font-size: 2.3rem;
+}
+
+.d-p{
+  padding-top: 5%;
+  width: 80%;
+  color: grey;
+}
+
+.sp{
+  color: #FF7B54;
+}
+
+@media (max-width: 1028px) {
+  #description{
+    text-align: center;
+  }
+
+  .d-h{
+    width: 100%;
+  }
+  .d-p{
+    width: 100%;
+    margin-bottom: 5%;
+  }
+}
+
+  /* footer */
+footer{
+  margin-top: 5%;
+  padding: 3% 10%;
+  background-color: #1A1A1B;
+}
+
+.f-p{
+  padding-top: 5%;
+  color: #fff;
+  font-size: 0.8rem;
+  line-height: 2;
+}
+
+.footer-right{
+  padding-left: 35%;
+  padding-top: 5%;
+}
+.social-icon{
+  padding: 20px 10px;
+  color: #fff;
+}
+
+@media (max-width: 1028px) {
+  .footer-right{
+    text-align: center;
+    padding-top: 0;
+    padding-left: 0;
+  }
 }
