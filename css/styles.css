@@ -5,7 +5,8 @@ body{
 /* title */
 #title{
   background-color: #1A1A1B;
-  padding: 0 15% 1% 15%;
+  padding: 0 10% 1% 10%;
+  position: relative;
 }
 
 .title{
@@ -29,12 +30,13 @@ body{
 }
 
 .title-text{
-  padding-top: 6rem;
+  padding-top: 9rem;
 }
 
 .title-image{
   width: 100%;
   padding-top: 1rem;
+  margin-bottom: 1%;
 }
 
 .row h3{
@@ -66,6 +68,8 @@ body{
 @media (max-width: 1028px) {
   #title{
     text-align: center;
+    background-color: #1A1A1B;
+    padding: 0 10% 1% 10%;
   }
 
   .title-heading{
@@ -84,7 +88,7 @@ body{
 /* products */
 #products{
   text-align: center;
-  padding: 8% 15%;
+  padding: 8% 10%;
   align-items: center;
 }
 
@@ -148,7 +152,7 @@ span{
 
 /* zx 9 speaker  */
 #zx9-speaker{
-  padding: 0 15% 3% 15%;
+  padding: 0 10% 3% 10%;
 }
 
 .third-container{
@@ -171,7 +175,7 @@ span{
 
 .speaker-heading{
   margin-left: 15%;
-  margin-top: 24%;
+  margin-top: 26%;
   line-height: 0.5;
   font-size: 3.2rem;
   color: #fff;
@@ -206,7 +210,7 @@ span{
 @media (max-width: 1028px) {
   #zx9-speaker{
     text-align: center;
-    padding: 0 15% 3% 15%;
+    padding: 0 10% 3% 10%;
   }
     .speaker-image{
       object-fit: cover;
@@ -254,7 +258,7 @@ span{
 }
 
 #zx7-speaker{
-  padding: 0 15% 3% 15%;
+  padding: 0 10% 3% 10%;
 }
 
 .fourth-container{
@@ -304,7 +308,7 @@ span{
 
 
 #yx1-earphones{
-  padding: 0 15% 3% 15%;
+  padding: 0 10% 3% 10%;
 }
 
 .fifth-container{
