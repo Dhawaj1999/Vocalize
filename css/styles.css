@@ -5,7 +5,7 @@ body{
 /* title */
 #title{
   background-color: #1A1A1B;
-  padding: 0 10% 1% 10%;
+  padding: 0 2% 1% 2%;
   position: relative;
 }
 
@@ -32,23 +32,25 @@ body{
 
 .title-text{
   padding-top: 9rem;
+  padding-left: 7%;
 }
 
 .title-image{
   width: 100%;
   padding-top: 1rem;
   margin-bottom: 1%;
+  padding-right: 2%;
 }
 
 .row h3{
   color: grey;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   word-spacing: 2px;
   letter-spacing: 6px;
 }
 
 .title-heading{
-  font-size: 3.6rem;
+  font-size: 4rem;
   color: #fff;
 }
 
@@ -57,6 +59,7 @@ body{
   color: grey;
   line-height: 1.6;
   padding-bottom: 10px;
+  font-size: 1.2rem;
 }
 
 .btt{
@@ -70,7 +73,7 @@ body{
   #title{
     text-align: center;
     background-color: #1A1A1B;
-    padding: 0 10% 1% 10%;
+    padding: 0 2% 1% 2%;
   }
 
   .title-heading{
@@ -79,6 +82,8 @@ body{
 
   .title-text{
     padding-top: 6rem;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .row h3{
@@ -93,7 +98,7 @@ body{
 /* products */
 #products{
   text-align: center;
-  padding: 8% 10%;
+  padding: 8% 2%;
   align-items: center;
 }
 
@@ -148,7 +153,7 @@ a{
 
 @media (max-width: 1028px) {
   #products{
-    padding: 8% 20% 5% 20%;
+    padding: 8% 2% 5% 2%;
   }
   .card{
     margin-bottom: 3%;
@@ -157,7 +162,7 @@ a{
 
 /* zx 9 speaker  */
 #zx9-speaker{
-  padding: 0 10% 3% 10%;
+  padding: 0 5% 3% 5%;
 }
 
 .third-container{
@@ -215,7 +220,7 @@ a{
 @media (max-width: 1028px) {
   #zx9-speaker{
     text-align: center;
-    padding: 0 10% 3% 10%;
+    padding: 0 5% 3% 5%;
   }
     .speaker-image{
       object-fit: cover;
@@ -263,13 +268,13 @@ a{
 }
 
 #zx7-speaker{
-  padding: 0 10% 3% 10%;
+  padding: 0 5% 3% 5%;
 }
 
 .fourth-container{
   background-color: #E8E8E8;
   background-image: url(../bg/bggg.jpeg);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   position: static;
 }
 
@@ -313,7 +318,7 @@ a{
 
 /* yx1 earphone */
 #yx1-earphones{
-  padding: 0 10% 3% 10%;
+  padding: 0 5% 3% 5%;
 }
 
 .fifth-container{
@@ -368,7 +373,7 @@ a{
 
   /* description */
 #description{
-  padding: 7% 10%;
+  padding: 7% 5%;
 }
 
 .person-with-hpn{
@@ -379,7 +384,7 @@ a{
 .d-h{
   padding-top: 8%;
   width: 60%;
-  font-size: 2.3rem;
+  font-size: 2.5rem;
 }
 
 .d-p{
@@ -409,7 +414,7 @@ a{
   /* footer */
 footer{
   margin-top: 5%;
-  padding: 3% 10%;
+  padding: 3% 2%;
   background-color: #1A1A1B;
 }
 
