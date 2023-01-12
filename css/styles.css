@@ -148,7 +148,7 @@ span{
 
 /* zx 9 speaker  */
 #zx9-speaker{
-  padding: 0 15% 10% 15%;
+  padding: 0 15% 3% 15%;
 }
 
 .third-container{
@@ -251,4 +251,44 @@ span{
       margin-right: auto;
       margin-bottom: 12%;
     }
+}
+
+#zx7-speaker{
+  padding: 0 15% 3% 15%;
+}
+
+.fourth-container{
+  background-image: url(../bg/bg.jpeg);
+  background-repeat: no-repeat;
+  position: static;
+}
+
+.zx7-heading{
+  padding-left: 15%;
+  font-family: 'Montserrat';
+  padding-top: 18%;
+  font-size: 1.8rem;
+  margin-bottom: 5%;
+}
+
+.zx7-btn{
+  padding: 6px 20px;
+  border-radius: 0;
+  word-spacing: 2px;
+  margin-left: 15%;
+  margin-bottom: 18%;
+}
+
+@media (max-width: 1028px) {
+  .fourth-container{
+    width: 100%;
+  }
+  .zx7-heading{
+    padding-top: 12%;
+
+  }
+
+  .zx7-btn{
+    margin-bottom: 11%;
+  }
 }
