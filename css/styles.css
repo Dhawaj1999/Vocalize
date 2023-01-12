@@ -148,7 +148,7 @@ span{
 
 /* zx 9 speaker  */
 #zx9-speaker{
-  padding: 0 15% 3% 15%;
+  padding: 0 15% 2% 15%;
 }
 
 .third-container{
@@ -289,6 +289,7 @@ span{
 @media (max-width: 1028px) {
   .fourth-container{
     width: 100%;
+    text-align: center;
   }
   .zx7-heading{
     padding-top: 12%;
