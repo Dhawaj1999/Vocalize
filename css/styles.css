@@ -258,7 +258,8 @@ span{
 }
 
 .fourth-container{
-  background-image: url(../bg/bg.jpeg);
+  background-color: #E8E8E8;
+  background-image: url(../bg/bggg.jpeg);
   background-repeat: no-repeat;
   position: static;
 }
@@ -278,6 +279,12 @@ span{
   margin-left: 15%;
   margin-bottom: 18%;
 }
+
+/* .zx7-image{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+} */
 
 @media (max-width: 1028px) {
   .fourth-container{
