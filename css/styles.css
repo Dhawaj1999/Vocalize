@@ -148,7 +148,7 @@ span{
 
 /* zx 9 speaker  */
 #zx9-speaker{
-  padding: 0 15% 2% 15%;
+  padding: 0 15% 3% 15%;
 }
 
 .third-container{
@@ -206,7 +206,7 @@ span{
 @media (max-width: 1028px) {
   #zx9-speaker{
     text-align: center;
-    padding: 0 15% 10% 15%;
+    padding: 0 15% 3% 15%;
   }
     .speaker-image{
       object-fit: cover;
@@ -280,11 +280,7 @@ span{
   margin-bottom: 18%;
 }
 
-/* .zx7-image{
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-} */
+
 
 @media (max-width: 1028px) {
   .fourth-container{
@@ -293,10 +289,63 @@ span{
   }
   .zx7-heading{
     padding-top: 12%;
-
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .zx7-btn{
     margin-bottom: 11%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+#yx1-earphones{
+  padding: 0 15% 3% 15%;
+}
+
+.fifth-container{
+  background-color: #F0F0F0;
+}
+
+.yx1-earphones-image{
+  object-fit: cover;
+}
+
+.left-part{
+  background-color: black;
+}
+
+.right-part{
+  text-align: center;
+}
+
+.yx1-heading{
+  padding-top: 22%;
+  padding-bottom: 5%;
+  font-family: 'Montserrat';
+}
+
+.yx1-btn{
+  padding: 6px 20px;
+  border-radius: 0;
+  word-spacing: 2px;
+}
+
+@media (max-width: 1028px) {
+  .yx1-heading{
+    padding-top: 15%;
+    padding-bottom: 5%;
+    font-family: 'Montserrat';
+  }
+
+  .yx1-btn{
+    padding: 6px 20px;
+    border-radius: 0;
+    word-spacing: 2px;
+    margin-bottom: 15%;
   }
 }
