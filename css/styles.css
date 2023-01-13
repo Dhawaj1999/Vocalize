@@ -374,7 +374,7 @@ a{
 
   /* description */
 #description{
-  padding: 7% 5%;
+  padding: 7% 5% 7% 5%;
 }
 
 .person-with-hpn{
@@ -401,6 +401,7 @@ a{
 @media (max-width: 1028px) {
   #description{
     text-align: center;
+    padding: 2% 5% 7% 5%;
   }
 
   .d-h{
